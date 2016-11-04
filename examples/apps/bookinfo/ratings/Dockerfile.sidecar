@@ -14,7 +14,7 @@
 
 FROM python:2-onbuild
 
-RUN wget -qO- https://github.com/amalgam8/amalgam8/releases/download/v0.4.0/a8sidecar.sh | sh
+RUN wget -qO- https://github.com/carltonsemple/amalgam8/releases/download/v0.4.0-47/a8sidecar.sh | sh
 
 RUN mkdir -p /opt/microservices
 COPY . /opt/microservices/
