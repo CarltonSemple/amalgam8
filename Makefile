@@ -44,7 +44,7 @@ SIDECAR_APP_NAME		:= a8sidecar
 
 REGISTRY_IMAGE_NAME		:= amalgam8/a8-registry:latest
 CONTROLLER_IMAGE_NAME	:= amalgam8/a8-controller:latest
-SIDECAR_IMAGE_NAME		:= amalgam8/a8-sidecar:latest
+SIDECAR_IMAGE_NAME		:= amalgam8/a8-sidecar:alpine
 
 REGISTRY_DOCKERFILE		:= $(DOCKERDIR)/Dockerfile.registry
 CONTROLLER_DOCKERFILE	:= $(DOCKERDIR)/Dockerfile.controller
