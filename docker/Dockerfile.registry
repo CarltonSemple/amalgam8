@@ -19,5 +19,7 @@ COPY bin/a8registry       /opt/a8registry/
 COPY registry/messages    /opt/a8registry/locales
 
 EXPOSE 8080
+LABEL works.weave.role=system
+LABEL io.amalgam8.role=controlplane
 
 ENTRYPOINT [ "/opt/a8registry/a8registry" ]
